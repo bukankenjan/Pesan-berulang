@@ -15,11 +15,11 @@ TELEGRAM_BOT_TOKEN = getenv("TELEGRAM_BOT_TOKEN")
 BOTHOST = getenv("BOTHOST")  # only required in prod environment
 
 # custom messages
-start_message = "*Thank you for using Recurring Messages\!*\n\nTo start, please tell me your UTC timezone\. For example, if your timezone is UTC\+08:30, enter \+08:30\.\n\n\(swipe left to reply to this message\)"
-help_message = "I can help you schedule recurring messages using <a href='https://crontab.guru/'>cron schedule expressions</a> (min. 1 minute intervals).\n\n<b>Available commands</b>\n/add - add a new job\n/list - list running jobs\n/delete - delete a job\n/options - view advanced job options\n/checkcron - check the validity/meaning of a cron expression\n\n<b>Found a bug?</b>\nPlease contact the bot owner at hs.develops.1@gmail.com.\n\n<b>Enjoying the bot?</b>\nYou can <a href='https://www.buymeacoffee.com/rmteam'>buy the RM team a coffee</a>!"  # html
-delete_message = "Hey, tell me the name of the job you want to delete. Get /list of available jobs.\n\n(swipe left to reply to this message)"
+start_message = "*Terima kasih telah menggunakan Bot Pesan Berulang\!*\n\nUntuk memulai, beri tahu saya zona waktu Anda dalam satuan UTC\. Misalnya, jika zona waktu Anda adalah UTC\+08:30, masukkan \+08:30\.\n\n\(geser ke kiri untuk membalas pesan ini\)"
+help_message = "Saya dapat membantu Anda menjadwalkan pesan berulang menggunakan <a href='https://crontab.guru/'>cron schedule expressions</a> (min. interval 1 menit).\n\n<b>Perintah yang tersedia</b>\n/add - menambahkan pekerjaan baru\n/list - daftar pekerjaan yang sedang berjalan\n/delete - menghapus pekerjaan\n/options - melihat opsi pekerjaan lanjutan\n/checkcron - memeriksa validitas/makna ekspresi cron\n\n<b>Menemukan bug?</b>\nSilakan hubungi pemilik bot di https://t.me/bukankenjan."  # html
+delete_message = "Hai, beri tahu saya nama pekerjaan yang ingin Anda hapus. Kirim /list untuk melihat pekerjaan yang tersedia.\n\n(geser ke kiri untuk membalas pesan ini)"
 request_jobname_message = (
-    "Give me your job name\n\n(swipe left to reply to this message)"
+    "Berikan NAMA untuk pekerjaan Anda\n\n(geser ke kiri untuk membalas pesan ini)"
 )
 request_crontab_message = "Give me your cron schedule expression (e.g. 4 5 * * *), click <a href='https://crontab.guru/'>here</a> if you need help. Use /checkcron to check your cron expression.\n\n(swipe left to reply to this message)"  # html
 request_text_message = (
