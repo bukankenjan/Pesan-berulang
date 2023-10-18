@@ -21,7 +21,7 @@ delete_message = "Hai, beri tahu saya nama pekerjaan yang ingin Anda hapus. Kiri
 request_jobname_message = (
     "Berikan NAMA untuk pekerjaan Anda\n\n(geser ke kiri untuk membalas pesan ini)"
 )
-request_crontab_message = "Give me your cron schedule expression (e.g. 4 5 * * *), click <a href='https://crontab.guru/'>here</a> if you need help. Use /checkcron to check your cron expression.\n\n(swipe left to reply to this message)"  # html
+request_crontab_message = "Berikan saya ekspresi jadwal cron Anda (mis. 4 5 * * *), tekan disini <a href='https://crontab.guru/'>here</a> jika butuh bantuan. Use /checkcron to check your cron expression.\n\n(swipe left to reply to this message)"  # html
 request_text_message = (
     "Now give me what you want to send\n\n(swipe left to reply to this message)"
 )
